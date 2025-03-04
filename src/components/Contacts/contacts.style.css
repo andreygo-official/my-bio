@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cormorant+Garamond&family=Poppins&display=swap');
+
+.contacts{
+    background-color: white;
+    padding-bottom: 40px;
+}
+h2, h5{
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+}
+h2{
+    color: rgb(34, 34, 114);
+    margin-bottom: 20px;
+}
+h5{
+    margin-bottom: 40px;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.location, .mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.location .bi-pin-map,
+.mail .bi-envelope{
+    padding: 20px;
+    color: rgb(0, 174, 255);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.location span:nth-child(1),
+.mail span:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+}
+.location span:nth-child(3),
+.mail span > a{
+    color: rgb(147, 147, 147);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.location span:nth-child(3):hover,
+.mail span > a:hover{
+    color: rgb(0, 174, 255);
+}
+.email-link{
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+}

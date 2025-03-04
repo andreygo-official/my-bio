@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.282e53d4.css",
+    "main.js": "/static/js/main.28fe402f.js",
+    "static/media/fitness-logo.png": "/static/media/fitness-logo.4cb6b1af7528659ae57e.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/profile.jpeg": "/static/media/profile.7de0611314fc42861680.jpeg",
+    "static/media/weather-logo.png": "/static/media/weather-logo.428de829e144c29a9fab.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/working.png": "/static/media/working.6759ea03f8762480c51c.png",
+    "static/media/auto-service.png": "/static/media/auto-service.3d95a9a08ce412eaee0e.png",
+    "index.html": "/index.html",
+    "main.282e53d4.css.map": "/static/css/main.282e53d4.css.map",
+    "main.28fe402f.js.map": "/static/js/main.28fe402f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.282e53d4.css",
+    "static/js/main.28fe402f.js"
+  ]
+}

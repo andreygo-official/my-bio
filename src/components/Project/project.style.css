@@ -1,0 +1,106 @@
+.portfolio-heading {
+    color: rgb(34, 34, 114);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.portfolio-heading+p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.portfolio-heading+p a {
+    color: rgb(13, 154, 186);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.portfolio-photo {
+    position: relative;
+    transition: 0.4s all;
+    overflow: hidden;
+    width: auto;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.portfolio-photo img,
+.empty-element-one {
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.portfolio-photo img {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 300px;
+    transition: 0.4s all;
+    border-radius: 10%;
+}
+
+.empty-element {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    border-radius: 10%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.weatherLogo{
+    margin-right: 60px;
+}
+
+.weatherLogo, .fitnessLogo {
+    scale: 0.8;
+    transition: 0.4s all ease;
+    pointer-events: auto;
+
+}
+.autoServiceLogo{
+    scale: 0.4;
+}
+.fitnessLogo{
+    margin-left: 20px;
+}
+.portfolio-photo:hover > img {
+    scale: 1.1;
+    opacity: 0;
+
+}
+
+.portfolio-photo:hover > .empty-element > .weatherLogo,
+.portfolio-photo:hover > .empty-element > .fitnessLogo,
+.portfolio-photo:hover > .empty-element > .autoServiceLogo{
+    scale: 1.05;
+    opacity: 0;
+    pointer-events: none;
+}
+.website-actions{
+    display: flex;
+    justify-content: space-around;
+}
+.website-clickbait{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+.website-actions p{
+    cursor: pointer;
+    transition: 0.2s ease-in-out color;
+}
+.portfolio-photo:hover .website-clickbait{
+    display: block;
+}
+.portfolio-photo .website-clickbait .website-actions p:hover {
+    color: red;
+}

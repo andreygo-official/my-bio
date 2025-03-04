@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: center;
+}
+html {
+  scroll-behavior: smooth;
+}

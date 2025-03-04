@@ -1,0 +1,61 @@
+
+.about-component{
+    background-color: rgb(100, 218, 178);
+    width: 100%;
+}
+.about-container{
+    border-right: 10px white double;
+    border-left: 10px white double;
+    background-color: rgb(85, 63, 195);
+}
+.about-image{
+    max-width: 60%;
+    height: auto;
+    object-fit: contain;
+}
+.image-block{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.about-me-block{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-me-block div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-me-paragraph p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (width <= 768px){
+    .about-image{
+        width: 90%;
+    }
+}
+@media (width <= 991px){
+    h2{
+       margin-bottom: 60px;
+    }
+}
+.front-end-emoji{
+    background-color: white;
+    position: relative;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

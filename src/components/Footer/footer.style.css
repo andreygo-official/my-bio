@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cormorant+Garamond&family=Poppins&display=swap');
+.footer-component{
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer p > i{
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.footer p > i:hover{
+    color: aqua;
+}
+@media(max-width:576px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}

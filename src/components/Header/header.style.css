@@ -1,0 +1,40 @@
+*{
+    font-family: 'Eurostile Extended', sans-serif;
+}
+nav {
+    background-color: rgb(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 10px black;
+    position: fixed top;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    transition: 0.4s;
+    backdrop-filter: blur(8px);
+}
+
+.scroll-down {
+    transform: translateY(-100%);
+}
+.scroll-up {
+    transform: translateY(0);
+}
+
+.info-links .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif
+}
+.navbar-brand{
+    cursor: pointer;
+}
